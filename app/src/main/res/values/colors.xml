@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#75838d</color>
+    <color name="colorPrimaryDark">#6f7c85</color>
+    <color name="textColor">#343D46</color>
+    <color name="colorAccent">#7e8d98</color>
+    <color name="colorFAB1">#6f7c85</color>
+    <color name="colorFAB2">#7e8d98</color>
+    <color name="colorTabLayout">#75838d</color>
+    <color name="colorTabLayoutScroll">#4f5b66</color>
+    <color name="colorExplorerTop">@null</color>
+    <color name="separate">#dbdbdb</color>
+    <color name="textBackground">#d8e7f2</color>
+    <color name="itemSelection">#ced5d8</color>
+</resources>

@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Simple File Explorer</string>
+
+    <!-- Navigation drawer -->
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="options_menu">Options</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="share_file_menu_item">Share File</string>
+    <string name="new_menu_item">New…</string>
+    <string name="search_menu_item">Search</string>
+    <string name="order_file_menu_item">Order files</string>
+    <string name="display_mode_menu_item">Display mode</string>
+    <string name="reload_menu_item">Reload</string>
+    <string name="close_menu_item">Close current tab</string>
+    <string name="pref_menu_item">Preferences</string>
+
+    <!-- Button dialog -->
+
+    <string name="btn_accept">OK</string>
+    <string name="btn_affirmation">Yes</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_dismiss">Dismiss</string>
+
+    <!-- Success message -->
+
+    <string name="file_created">File created with success</string>
+    <string name="folder_created">Folder created with success</string>
+    <string name="copy_success">File(s) copied</string>
+    <string name="cut_success">File(s) cut</string>
+
+    <!-- Warning message -->
+
+    <string name="multiple_deletion">Multiple file deletion : there will be lost forever, Are you sure ?</string>
+    <string name="wifi_needed">Wifi must be enable for sharing. Would you like to open Wifi settings ?</string>
+    <string name="identical_folder">Identical folder found</string>
+    <string name="identical_files">Identical file(s) found</string>
+    <string name="correction_path_terminate">Correction location has terminated, getting path : %1$s</string>
+
+    <!-- Error message -->
+
+    <string name="files_not_found">File(s) Not Found</string>
+    <string name="discovery_device_add_fail">Failed to add a service</string>
+    <string name="error_occurred">An error occurred if this persist restart the application</string>
+    <string name="delete_error">Error Deleting File(s)</string>
+    <string name="no_location">Error correcting location, no location accessible</string>
+    <string name="error_retrieve_name">Error can\'t retrieve fragment name</string>
+    <string name="discovery_perm_error">Discovery Service Could not be started, permission needed</string>
+    <string name="error_copy_loop">Error trying to copy file as sub file of itself will cause infinite copy loop</string>
+    <string name="deletion_error_folder">Error deleting folder : %1$s</string>
+    <string name="deletion_title_error_file">It will delete : %1$s. It will be lost forever, Are you sure ?</string>
+    <string name="deletion_error_file">Error deleting file : %1$s</string>
+    <string name="error_reading_folder">Error reading folder : %1$s</string>
+    <string name="error_reading_go_parent">Error reading folder : %1$s trying reaching existing parent</string>
+    <string name="error_path">Error reading location : %1$s trying correcting path</string>
+
+    <!-- Fab menu -->
+
+    <string name="fab_text_delete">Delete</string>
+    <string name="fab_text_paste_from">Paste from</string>
+    <string name="fab_text_paste">Paste</string>
+    <string name="fab_text_cut">Cut</string>
+    <string name="fab_text_copy">Copy</string>
+    <string name="fab_text_new">New</string>
+
+    <!-- Copy & Rename dialog -->
+
+    <string name="copy_message_identical">File %1$s already exist. What would you like to do ?</string>
+    <string name="copy_btn_replace">Replace</string>
+    <string name="copy_btn_keep_both">Keeps Both</string>
+    <string name="copy_btn_ignore">Ignore</string>
+    <string name="copy_rename">" - Copie"</string>
+    <string name="copy_rename_increment">" - Copie \\(%1$d\\)"</string>
+    <string name="rename_title_dialog">Rename %1$s</string>
+    <string name="copy_from">Copying file(s) from :</string>
+
+    <!-- File info dialog -->
+
+    <string name="file_menu_title">Action for : %1$s</string>
+    <string name="file_info_title">Information</string>
+    <string name="file_info_dir">Directory</string>
+    <string name="file_info_doc">Document</string>
+    <string name="file_info_pdf">PDF</string>
+    <string name="file_info_pp">Powerpoint file</string>
+    <string name="file_info_exl">Excel file</string>
+    <string name="file_info_zip">Zip</string>
+    <string name="rtf">RTF</string>
+    <string name="file_info_aud">Audio</string>
+    <string name="file_info_midi">Midi file</string>
+    <string name="gif">GIF</string>
+    <string name="file_info_img">Image</string>
+    <string name="file_info_txt">Text</string>
+    <string name="file_info_vid">Video</string>
+    <string name="file_info_file">File</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Main Settings -->
+
+    <string name="title_activity_application_settings">Settings</string>
+
+    <!-- General settings -->
+
+    <string name="pref_header_general">General</string>
+    <string name="check_box_direct_open" translatable="false">check_box_quick_opening</string>
+    <string name="title_direct_open">Direct open file</string>
+    <string name="summary_direct_open">On open file, directly let the app choose the corresponding type depending on the file extension</string>
+    <string name="check_box_info_menu" translatable="false">check_box_info_menu</string>
+    <string name="title_info_menu">Selected file menu button</string>
+    <string name="summary_info_menu">Add a button on bottom-left opening the selected file menu</string>
+    <string name="check_box_auto_merge" translatable="false">check_box_auto_merge</string>
+    <string name="title_auto_merge">Copy merge non-asking</string>
+    <string name="summary_auto_merge">Suppress the dialog window and merge identical folder during copy</string>
+    <string name="list_action_identical_file" translatable="false">list_action_identical_file</string>
+    <string name="summary_copy_action">Current : %s. Ignoring file(s) prevent file(s) copied deletion</string>
+    <string name="title_action_identical_file">Identical file on copy action</string>
+    <string name="check_box_back_nav_bar_action" translatable="false">check_box_back_nav_bar_action</string>
+    <string name="title_back_nav_bar_action">Back to reach parent</string>
+    <string name="summary_back_nav_bar_action">Pressing back on nav bar reach parent folder instead of last folder</string>
+    <string name="check_box_back_nav_bar" translatable="false">check_box_back_nav_bar</string>
+    <string name="title_back_nav_bar">Prevent back exiting</string>
+    <string name="summary_back_nav_bar">Prevent exiting on pressing back on top of history or root folder</string>
+    <string name="list_localization" translatable="false">list_localization</string>
+    <string name="title_localization">language</string>
+
+    <!-- Explorer creation preferences settings -->
+
+    <string name="check_box_general_show_hidden_files" translatable="false">check_box_general_show_hidden_files</string>
+    <string name="pref_header_explorer_default">Explorer Creation Preferences</string>
+    <string name="check_box_general_last_folder" translatable="false">switch_general_last_folder</string>
+    <string name="general_default_folder" translatable="false">general_default_folder</string>
+    <string name="list_general_default_display_type" translatable="false">list_general_default_display_type</string>
+    <string name="title_general_default_folder">Opening folder</string>
+    <string name="check_box_default_last_display_type" translatable="false">check_box_default_last_display_type</string>
+    <string name="title_default_display_types">Display types on creation</string>
+    <string name="title_default_last_display_type">Use last display type as default</string>
+    <string name="check_box_general_sort_order" translatable="false">check_box_general_sort_order</string>
+    <string name="title_general_default_sort_order">Use last sort order as default sort order</string>
+    <string name="list_general_default_sort_order" translatable="false">list_default_sort_order</string>
+    <string name="title_general_sort_order">Default sort order</string>
+
+    <!-- About settings -->
+
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">This is a test project. It does not intent to be distribute by any means.</string>
+    <string name="app_version" translatable="false">0.1.0</string>
+    <string name="title_version">Version</string>
+
+    <!-- Experimental settings -->
+
+    <string name="pref_header_experimental">Experimental</string>
+    <string name="key_reload_on_swipe" translatable="false">key_reload_on_swipe</string>
+    <string name="title_reload">Swipe Reload</string>
+    <string name="summary_reload">Reload tab when swipe on. Cause slowdown !</string>
+    <string name="key_auto_start_discovery" translatable="false">key_auto_start_discovery</string>
+    <string name="title_discovery">Automatic Wifi Searching</string>
+    <string name="summary_discovery">Automatically Search proximity devices through wifi</string>
+
+    <!-- Explorer settings -->
+
+    <!-- General settings -->
+
+    <string name="check_box_show_hidden_files" translatable="false">check_box_show_hidden_files</string>
+    <string name="title_hidden_files">Show hidden files</string>
+    <string name="summary_hidden_files">Show hidden files commencing with a \".\"</string>
+
+    <!-- On Start settings -->
+
+    <string name="pref_header_on_start">On Start</string>
+    <string name="switch_last_folder" translatable="false">switch_last_folder</string>
+    <string name="title_last_folder">Use last folder as default folder</string>
+    <string name="edit_text_default_folder" translatable="false">default_folder</string>
+    <string name="title_default_folder">Default folder</string>
+    <string name="list_default_display_type" translatable="false">list_default_display_type</string>
+    <string name="title_display_types">Display types</string>
+    <string name="switch_last_display_type" translatable="false">switch_last_display_type</string>
+    <string name="title_last_display_type">Use last display type as default</string>
+    <string name="switch_sort_order" translatable="false">switch_sort_order</string>
+    <string name="title_default_sort_order">Use last sort order as default sort order</string>
+    <string name="list_default_sort_order" translatable="false">list_default_sort_order</string>
+    <string name="title_sort_order">Sort order</string>
+
+    <!-- Other -->
+
+    <string name="sdcard_path" translatable="false">/sdcard</string>
+
+    <!-- Share File Activity -->
+
+    <string name="share_file_app_bar_title">Share File</string>
+    <string name="date_format">yy MMM dd HH:mm</string>
+    <string name="serialize_title_frag" translatable="false">title</string>
+
+</resources>

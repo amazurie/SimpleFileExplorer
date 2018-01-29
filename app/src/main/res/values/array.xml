@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="file_types">
+        <item>file</item>
+        <item>folder</item>
+    </string-array>
+
+    <string-array name="tabs_type">
+        <item>Explorer</item>
+        <item>nothing</item>
+    </string-array>
+
+    <string-array name="display_type">
+        <item>Simple</item>
+        <item>Details</item>
+        <item>Icon</item>
+        <item>Content</item>
+    </string-array>
+
+    <string-array name="display_type_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="sort_types">
+        <item>Names</item>
+        <item>Sizes</item>
+        <item>Types</item>
+        <item>Last modification dates</item>
+        <item>No sorting</item>
+    </string-array>
+
+    <string-array name="display_sort_types" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="copy_action">
+        <item>Ask</item>
+        <item>Replace</item>
+        <item>Keep both</item>
+        <item>Ignore</item>
+    </string-array>
+
+    <string-array name="display_copy_action" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="localization_types">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="display_localization_types" translatable="false">
+        <item>en</item>
+        <item>fr</item>
+    </string-array>
+
+    <string-array name="file_menu">
+        <item>Open</item>
+        <item>Rename</item>
+        <item>Info</item>
+        <item>Copy</item>
+        <item>Cut</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="file_open">
+        <item>let the app choose</item>
+        <item>text</item>
+        <item>image</item>
+        <item>video</item>
+        <item>open with…</item>
+    </string-array>
+
+</resources>

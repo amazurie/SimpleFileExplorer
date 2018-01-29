@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_add"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB2"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toTopOf="@+id/fab5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+    <TextView
+        android:id="@+id/textViewFab6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/fab_text_new"
+        android:visibility="invisible"
+        android:background="@color/textBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/fab6"
+        app:layout_constraintEnd_toStartOf="@+id/fab6"
+        app:layout_constraintTop_toTopOf="@+id/fab6" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_copy"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB2"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toTopOf="@+id/fab4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+    <TextView
+        android:id="@+id/textViewFab5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/fab_text_copy"
+        android:visibility="invisible"
+        android:background="@color/textBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/fab5"
+        app:layout_constraintEnd_toStartOf="@+id/fab5"
+        app:layout_constraintTop_toTopOf="@+id/fab5" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_copy"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB2"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toTopOf="@+id/fab3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+    <TextView
+        android:id="@+id/textViewFab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/fab_text_cut"
+        android:visibility="invisible"
+        android:background="@color/textBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/fab4"
+        app:layout_constraintEnd_toStartOf="@+id/fab4"
+        app:layout_constraintTop_toTopOf="@+id/fab4"
+        app:layout_constraintVertical_bias="0.39999998" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_paste"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB2"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toTopOf="@+id/fab2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+    <TextView
+        android:id="@+id/textViewFab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/fab_text_paste"
+        android:visibility="invisible"
+        android:background="@color/textBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/fab3"
+        app:layout_constraintEnd_toStartOf="@+id/fab3"
+        app:layout_constraintTop_toTopOf="@+id/fab3" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_paste"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB1"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toTopOf="@+id/fab1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+    <TextView
+        android:id="@+id/textViewFab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/fab_text_paste_from"
+        android:visibility="invisible"
+        android:background="@color/textBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/fab2"
+        app:layout_constraintEnd_toStartOf="@+id/fab2"
+        app:layout_constraintTop_toTopOf="@+id/fab2"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_delete"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB2"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toTopOf="@+id/fab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+    <TextView
+        android:id="@+id/textViewFab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/fab_text_delete"
+        android:visibility="invisible"
+        android:background="@color/textBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/fab1"
+        app:layout_constraintEnd_toStartOf="@+id/fab1"
+        app:layout_constraintTop_toTopOf="@+id/fab1"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabInfoMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="@dimen/FabButtonElevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+</android.support.constraint.ConstraintLayout>

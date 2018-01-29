@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_general">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/check_box_direct_open"
+            android:title="@string/title_direct_open"
+            android:summary="@string/summary_direct_open" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/check_box_info_menu"
+            android:title="@string/title_info_menu"
+            android:summary="@string/summary_info_menu" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/copy_action"
+            android:entryValues="@array/display_copy_action"
+            android:summary="@string/summary_copy_action"
+            android:key="@string/list_action_identical_file"
+            android:title="@string/title_action_identical_file"
+            android:disableDependentsState="true" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/check_box_back_nav_bar_action"
+            android:title="@string/title_back_nav_bar_action"
+            android:summary="@string/summary_back_nav_bar_action" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/check_box_back_nav_bar"
+            android:title="@string/title_back_nav_bar"
+            android:summary="@string/summary_back_nav_bar" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/localization_types"
+            android:entryValues="@array/display_localization_types"
+            android:summary="%s"
+            android:key="@string/list_localization"
+            android:title="@string/title_localization" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_explorer_default">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/check_box_general_show_hidden_files"
+            android:title="@string/title_hidden_files"
+            android:summary="@string/summary_hidden_files" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/check_box_general_last_folder"
+            android:title="@string/title_last_folder" />
+
+        <EditTextPreference
+            android:defaultValue="@string/sdcard_path"
+            android:key="@string/general_default_folder"
+            android:title="@string/title_general_default_folder"
+            android:selectAllOnFocus="true"
+            android:singleLine="true" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/check_box_default_last_display_type"
+            android:title="@string/title_default_last_display_type" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/display_type"
+            android:entryValues="@array/display_type_value"
+            android:summary="%s"
+            android:key="@string/list_general_default_display_type"
+            android:title="@string/title_default_display_types" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/check_box_general_sort_order"
+            android:title="@string/title_general_default_sort_order"
+            android:disableDependentsState="true" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/sort_types"
+            android:entryValues="@array/display_sort_types"
+            android:summary="%s"
+            android:key="@string/list_general_default_sort_order"
+            android:title="@string/title_general_sort_order" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_experimental">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_reload_on_swipe"
+            android:summary="@string/summary_reload"
+            android:title="@string/title_reload" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_auto_start_discovery"
+            android:summary="@string/summary_discovery"
+            android:title="@string/title_discovery" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

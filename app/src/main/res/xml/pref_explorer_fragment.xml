@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/pref_header_general">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/check_box_show_hidden_files"
+            android:title="@string/title_hidden_files"
+            android:summary="@string/summary_hidden_files" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_on_start">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/switch_last_folder"
+            android:title="@string/title_last_folder"
+            android:disableDependentsState="true" />
+
+        <EditTextPreference
+            android:defaultValue="@string/sdcard_path"
+            android:key="@string/edit_text_default_folder"
+            android:dependency="@string/switch_last_folder"
+            android:title="@string/title_default_folder"
+            android:selectAllOnFocus="true"
+            android:singleLine="true" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/switch_last_display_type"
+            android:title="@string/title_last_display_type"
+            android:disableDependentsState="true" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/display_type"
+            android:entryValues="@array/display_type_value"
+            android:dependency="@string/switch_last_display_type"
+            android:summary="%s"
+            android:key="@string/list_default_display_type"
+            android:title="@string/title_display_types" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/switch_sort_order"
+            android:title="@string/title_default_sort_order"
+            android:disableDependentsState="true" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/sort_types"
+            android:entryValues="@array/display_sort_types"
+            android:dependency="@string/switch_sort_order"
+            android:summary="%s"
+            android:key="@string/list_default_sort_order"
+            android:title="@string/title_sort_order" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_experimental">
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

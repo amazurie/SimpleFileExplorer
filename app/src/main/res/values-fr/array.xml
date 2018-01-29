@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="file_types">
+        <item>fichier</item>
+        <item>dossier</item>
+    </string-array>
+
+    <string-array name="tabs_type">
+        <item>Explorer</item>
+        <item>rien</item>
+    </string-array>
+
+    <string-array name="display_type">
+        <item>Simple</item>
+        <item>Détails</item>
+        <item>Icone</item>
+        <item>Contenu</item>
+    </string-array>
+
+    <string-array name="sort_types">
+        <item>Noms</item>
+        <item>Tailles</item>
+        <item>Types</item>
+        <item>dernière date de modification</item>
+        <item>Aucun tri</item>
+    </string-array>
+
+    <string-array name="copy_action">
+        <item>Demander</item>
+        <item>Remplacer</item>
+        <item>Garder les deux</item>
+        <item>Ignorer</item>
+    </string-array>
+
+    <string-array name="localization_types">
+        <item>Anglais</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="file_menu">
+        <item>Ouvrir</item>
+        <item>Renomer</item>
+        <item>Info</item>
+        <item>Copier</item>
+        <item>Couper</item>
+        <item>Supprimer</item>
+    </string-array>
+
+</resources>
