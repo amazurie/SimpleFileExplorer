@@ -250,8 +250,6 @@ public class MainActivity extends AppCompatActivity
             prepAdapterAdd();
         } else if (id == R.id.nav_search) {
 
-        } else if (id == R.id.nav_share) {
-            callShareActivity();
         } else if (id == R.id.nav_settings) {
             startActivityForResult(new Intent(MainActivity.this, SettingsActivity.class), 1);
             return true;
@@ -498,10 +496,5 @@ public class MainActivity extends AppCompatActivity
         int getTypeFragment(int position) {
             return mFragmentType.get(position);
         }
-    }
-
-    private void callShareActivity(){
-        Intent myIntent = new Intent(MainActivity.this, ShareFileActivity.class);
-        MainActivity.this.startActivity(myIntent);
     }
 }
